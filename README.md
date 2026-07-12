@@ -1,3 +1,6 @@
+<img width="2172" height="724" alt="banner" src="https://github.com/user-attachments/assets/52c62a01-8ed5-4f99-8bdf-709217276fc2" />
+
+
 # DamageNumbers
 
 DamageNumbers is a Fabric mod that displays configurable floating damage values at world-space hit locations.
@@ -12,11 +15,21 @@ DamageNumbers is a Fabric mod that displays configurable floating damage values 
 - Optional tracking of damage from every source.
 - Live previews in the Mod Menu settings screen.
 
-## Supported versions
+## Requirements
 
-- Minecraft 1.20.1 — Java 17
-- Minecraft 1.21.1–1.21.11 — Java 21
-- Minecraft 26.1 and 26.1.2 — Java 25
+- **Mod Menu** (for in-game settings entry)
+
+## Installation
+
+1. Install Fabric Loader & Fabric API for **Minecraft**.
+2. Put this mod’s JAR into your `mods/` folder.
+3. Add **Mod Menu** for an in-game settings UI.
+
+## Configuration
+
+### In-game
+After **Mod Menu** are installed:
+- Open **Mods → DamageNumbers → Configure**.
 
 ## Building
 
@@ -34,6 +47,10 @@ Build one version with its Gradle task:
 
 Release JARs are collected in `build/releases/`. Per-version JARs and source archives remain in
 `versions/<version>/build/libs/`.
+
+## Credits & Attribution
+
+- **Original author & idea credit:** [mel1x](https://www.curseforge.com/members/mel1x/projects)
 
 ## License
 
