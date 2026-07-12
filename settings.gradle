@@ -1,0 +1,36 @@
+pluginManagement {
+    repositories {
+        maven {
+            name = "Fabric"
+            url = "https://maven.fabricmc.net/"
+        }
+        mavenCentral()
+        gradlePluginPortal()
+    }
+
+    plugins {
+        id "net.fabricmc.fabric-loom-remap" version "1.17.13"
+        id "net.fabricmc.fabric-loom" version "1.17.13"
+    }
+}
+
+rootProject.name = "DamageNumbers"
+
+include(
+        "versions:mc1_20_1",
+        "versions:mc1_21_1",
+        "versions:mc1_21_2",
+        "versions:mc1_21_3",
+        "versions:mc1_21_4",
+        "versions:mc1_21_5",
+        "versions:mc1_21_6",
+        "versions:mc1_21_7",
+        "versions:mc1_21_8",
+        "versions:mc1_21_9",
+        "versions:mc1_21_10",
+        "versions:mc1_21_11",
+        "versions:mc26_1",
+        "versions:mc26_1_1",
+        "versions:mc26_1_2",
+        "versions:mc26_2"
+)

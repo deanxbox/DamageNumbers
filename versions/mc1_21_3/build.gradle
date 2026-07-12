@@ -1,0 +1,7 @@
+plugins { id "net.fabricmc.fabric-loom-remap" }
+ext.minecraftVersion = "1.21.3"
+ext.minecraftDependency = "1.21.3"
+ext.fabricApiVersion = "0.114.1+1.21.3"
+ext.javaRelease = 21
+ext.usesOfficialNames = false
+apply from: rootProject.file("gradle/fabric-version.gradle")
